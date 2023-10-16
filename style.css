@@ -1,0 +1,41 @@
+ul, ol{
+    list-style: none;
+}
+nav {
+    background-image:linear-gradient(to right, #0ce61b, #fd1d1d,#063075,#ef04d7a7,#f80810, #7f0dcb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ;
+    text-align:center;
+    background-size:4000px ;
+}
+
+
+nav ul img:hover{
+    padding-right: 150px;
+    
+}
+nav ul li {
+    display: inline-block;
+    
+    
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-size: 30px;
+    color: rgb(7, 23, 249);
+    padding: 13px 25px;
+    display: block;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+nav ul a:hover{
+    background-color: #e3e7e76d;
+
+}
+nav:hover{
+    background-position: right;
+    transition: 12s;
+}
